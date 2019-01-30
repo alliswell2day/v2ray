@@ -36,9 +36,9 @@ yum update
 yum install -y git python36u python36u-libs python36u-devel python36u-pip gcc
 
 
-git clone -b v2ray_api https://github.com/alliswell2day/v2ray-mod.git
+git clone -b v2ray_api https://github.com/alliswell2day/shadowsocks-munager.git
 
-cd v2ray-mod
+cd shadowsocks-munager
 
 cp config/config_example.yml config/config.yml
 
