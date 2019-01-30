@@ -26,8 +26,7 @@ CentOS 7
 
 **install v2ray：**
 
-bash <(curl -L -s https://install.direct/go.sh)
-
+curl -L -o /tmp/go.sh https://raw.githubusercontent.com/alliswell2day/v2ray-core/4.12.0_ips/release/install-release.sh && bash /tmp/go.sh -f --version 4.12.0
 
 yum install -y https://centos7.iuscommunity.org/ius-release.rpm
 
